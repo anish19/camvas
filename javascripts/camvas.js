@@ -56,7 +56,7 @@ function camvas(ctx, drawFunc) {
     // Yay, now our webcam input is treated as a normal video and
     // we can start having fun
     self.video.src = window.URL.createObjectURL(stream)
-    // Let's start drawing the canvas!
+    // Let's start drawing the canvas
     self.update()
   })
 
